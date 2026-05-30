@@ -1,0 +1,23 @@
+{
+  "name": "idx-vps-complete",
+  "version": "1.0.0",
+  "description": "Complete 24/7 VPS with Full Root Access for Google IDX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "keepalive": "node ~/vps/bin/keepalive.js"
+  },
+  "keywords": [
+    "vps",
+    "24/7",
+    "root-access",
+    "google-idx",
+    "terminal"
+  ],
+  "author": "ANI BHAI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
